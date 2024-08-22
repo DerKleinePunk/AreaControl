@@ -10,10 +10,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <AvaloniaXaml Remove="Assets\Icons.axaml" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Remove="Assets\Images\logo_big.png" />
   </ItemGroup>
 
@@ -27,8 +23,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <AvaloniaResource Update="Assets\Icons.axaml">
-      <SubType>Designer</SubType>
-    </AvaloniaResource>
+    <Folder Include="NewFolder\" />
   </ItemGroup>
 </Project>
